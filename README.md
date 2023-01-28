@@ -28,7 +28,26 @@
 }
 }
 ```
-- Change Too <a href="https://github.com/MFarelS/WhatsApp-Stories-Notifier-BOT-By-MFarelS/blob/main/database.json">Here</a>
+- Change Too <a href="https://github.com/MFarelS/WhatsApp-Stories-Notifier-BOT-By-MFarelS/blob/master/message/rell.js#L139">Here</a>
+```
+rell.sendMessage("yournumber@s.whatsapp.net", {text: caption, mentions: [sender2] })
+```
+- Change Too <a href="https://github.com/MFarelS/WhatsApp-Stories-Notifier-BOT-By-MFarelS/blob/master/message/rell.js#L149">Here</a>
+```
+rell.sendMessage("yournumber@s.whatsapp.net", {image: fs.readFileSync(filename+".jpeg"), caption: `Dari: ${semdew}\nTipe: Gambar\nWaktu: ${waktu} ${tanggal}\n${'-'.repeat(25)}\n\nCaption: ${caption}`, mentions: [sender2] })
+```
+- Change Too <a href="https://github.com/MFarelS/WhatsApp-Stories-Notifier-BOT-By-MFarelS/blob/master/message/rell.js#L162">Here</a>
+```
+rell.sendMessage("yournumber@s.whatsapp.net", {video: fs.readFileSync(filename+".mp4"), caption: `Dari: ${semdew}\nTipe: Video\nWaktu: ${waktu} ${tanggal}\n${'-'.repeat(25)}\n\nCaption: ${caption}`, mentions: [sender2] })
+```
+- Change Too <a href="https://github.com/MFarelS/WhatsApp-Stories-Notifier-BOT-By-MFarelS/blob/master/message/rell.js#L175">Here</a>
+```
+rell.sendMessage("yournumber@s.whatsapp.net", {text: `Dari: ${semdew}\nTipe: Audio\nWaktu: ${waktu} ${tanggal}`, mentions: [sender2] })
+```
+- Change Too <a href="https://github.com/MFarelS/WhatsApp-Stories-Notifier-BOT-By-MFarelS/blob/master/message/rell.js#L176">Here</a>
+```
+rell.sendMessage("yournumber@s.whatsapp.net", {audio: fs.readFileSync(filename+".mp3")})
+```
 ## Donate
 
 ### - Buy Me A Cake
